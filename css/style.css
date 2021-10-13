@@ -1,0 +1,163 @@
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic");
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/Gilroy-UltraLight.woff2") format("woff2"), url("../fonts/Gilroy-UltraLight.woff") format("woff");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+/* &display=swap&subset=cyrillic-ext */
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+	font-family: 'Montserrat', sans-serif;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ------------------------------ */
+
+
+.exercise{
+	font-style: italic;
+	font-weight: 500;
+}
+.exercise span{
+	display: block;
+	color: #fff;
+	padding: 30px;
+	margin: 0 0 15px 0;
+}
+
+div span.hello {
+	background-color: green;
+}
+
+span.hello_1{
+	background-color:red;
+}
+
+span.hello_2{
+	background-color: blue;
+}
+
+span.hello_3 {
+	background-color: purple;
+	margin: 0;
+}
+
+.block_1 {
+	display: inline-block;
+	max-width: 200px;
+	max-height: 200px;
+	margin: 15px;
+}
+.block_2 {
+	display: inline-block;
+	max-width: 200px;
+	max-height: 200px;
+	margin: 15px;
+}
+.block_3 {
+	display: inline-block;
+	max-width: 200px;
+	max-height: 200px;
+	margin: 15px;
+}
+a.link{
+	display: inline-block;
+	margin: 0 0 30px;
+	font-weight: 600;
+	font-style: italic;
+	font-size: 20px;
+}
+div p.text_1{
+	display: inline-block;
+	max-width: 100px;
+	margin: 0 30px 0 0;
+	padding: 10px;
+}
+div p.text_2{
+	display: inline-block;
+	max-width: 100px;
+	margin: 0 30px 0 0;
+	padding: 10px;
+}
+div p.text_3{
+	display: inline-block;
+	max-width: 100px;
+	margin: 0 30px 0 0;
+	padding: 10px;
+}
+div p.text_4{
+	display: inline-block;
+	max-width: 100px;
+	padding: 10px;
+}
+
+.item_one,
+.item_two {
+	padding: 30px;
+	color: #fff;
+	font-size: 25px;
+}
+
+.item_one{
+	background-color:aqua;
+}
+.item_two{
+	background-color: rgb(148, 18, 90);
+	margin: -40px 0 20px 0;
+}
+
+.sckroll_1 {
+	display: block;
+	max-height: 200px;
+	width: 500px;
+	overflow: auto;
+	color: red;
+	margin: 0 0 15px 15px;
+}
+.skroll{
+	font-family: "Gilroy";
+}
